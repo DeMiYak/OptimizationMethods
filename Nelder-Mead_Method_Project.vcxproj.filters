@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Function">
+      <UniqueIdentifier>{9b645d55-d6ec-469e-b7b7-f95ab21d8316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Area">
+      <UniqueIdentifier>{d8f9af2a-5896-444f-a47f-82cf1e47e4ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StopCriterion">
+      <UniqueIdentifier>{f403cab3-3003-4c31-bd4f-a8632d80ccae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OptMethod">
+      <UniqueIdentifier>{7e3672fb-f012-45a6-9fca-6e7e02be4175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Function">
+      <UniqueIdentifier>{25740f1c-9fdd-47cb-850c-1ee0c4c6ba50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OptMethod">
+      <UniqueIdentifier>{7d370c4c-d6ee-49b8-b3ad-0be85ef70b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StopCriterion">
+      <UniqueIdentifier>{d06947f3-30a4-4754-84a6-78d62fda0ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Area">
+      <UniqueIdentifier>{a0de92dc-efc9-41e7-ae63-333d74bcf9e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Printer">
+      <UniqueIdentifier>{cdebc533-a41a-4453-badf-446eb3a66da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Printer">
+      <UniqueIdentifier>{a4b9d6fc-fdee-4b82-89c1-a91571f184a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataTransfer">
+      <UniqueIdentifier>{dbec2aba-5380-4e63-8b00-f285d27ddafa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataTransfer">
+      <UniqueIdentifier>{884e64dc-44be-4cd1-810c-3c5435d33862}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseFunction.cpp">
+      <Filter>Source Files\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseArea.cpp">
+      <Filter>Source Files\Area</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseStopCriterion.cpp">
+      <Filter>Source Files\StopCriterion</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseOptMethod.cpp">
+      <Filter>Source Files\OptMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Source Files\Area</Filter>
+    </ClCompile>
+    <ClCompile Include="NelderMeadMethod.cpp">
+      <Filter>Source Files\OptMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="AbsoluteErrorStopCriterion.cpp">
+      <Filter>Source Files\StopCriterion</Filter>
+    </ClCompile>
+    <ClCompile Include="NelderMeadStopCriterion.cpp">
+      <Filter>Source Files\StopCriterion</Filter>
+    </ClCompile>
+    <ClCompile Include="StochasticMethod.cpp">
+      <Filter>Source Files\OptMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionThree.cpp">
+      <Filter>Source Files\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionOne.cpp">
+      <Filter>Source Files\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionTwo.cpp">
+      <Filter>Source Files\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer.cpp">
+      <Filter>Source Files\Printer</Filter>
+    </ClCompile>
+    <ClCompile Include="DataTransfer.cpp">
+      <Filter>Source Files\DataTransfer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseFunction.h">
+      <Filter>Header Files\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseArea.h">
+      <Filter>Header Files\Area</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseOptMethod.h">
+      <Filter>Header Files\OptMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseStopCriterion.h">
+      <Filter>Header Files\StopCriterion</Filter>
+    </ClInclude>
+    <ClInclude Include="Simplex.h">
+      <Filter>Header Files\Area</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Header Files\Area</Filter>
+    </ClInclude>
+    <ClInclude Include="NelderMeadMethod.h">
+      <Filter>Header Files\OptMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="AbsoluteErrorStopCriterion.h">
+      <Filter>Header Files\StopCriterion</Filter>
+    </ClInclude>
+    <ClInclude Include="Norm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NelderMeadStopCriterion.h">
+      <Filter>Header Files\StopCriterion</Filter>
+    </ClInclude>
+    <ClInclude Include="StochasticMethod.h">
+      <Filter>Header Files\OptMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionThree.h">
+      <Filter>Header Files\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionOne.h">
+      <Filter>Header Files\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionTwo.h">
+      <Filter>Header Files\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer.h">
+      <Filter>Header Files\Printer</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTransfer.h">
+      <Filter>Header Files\DataTransfer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Nelder_Mead_Method.png">
+      <Filter>Header Files\OptMethod</Filter>
+    </Image>
+    <Image Include="Simplex.png">
+      <Filter>Header Files\Area</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\OneDrive\Рабочий стол\Учёба\Четвёртый курс\Прога\voelker.2017.pdf">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
